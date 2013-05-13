@@ -53,12 +53,6 @@ Grab the latest release ([`named-regexp-0.1.9.jar`][4]) and include it in your c
 </dependency>
 ```
 
-Support
--------
-Feel free to ask any questions at named-regexp@googlegroups.com.
-Please report any issues in [JIRA][2].
-
-
 License
 -------
 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
