@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.berico.utils</groupId>
+  <artifactId>named-regexp</artifactId>
+  <packaging>jar</packaging>
+  <name>named-regexp</name>
+  <description>Named capturing groups for Java 5/6</description>
+  <version>0.1.10</version>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>tony19</id>
+      <name>Tony Trinh</name>
+      <email>tony19@gmail.com</email>
+      <url>http://tony19.github.com</url>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+      <repository>
+          <id>nexus.bericotechnologies.com</id>
+          <url>http://nexus.bericotechnologies.com/content/repositories/releases/</url>
+      </repository>
+      <snapshotRepository>
+          <id>nexus.bericotechnologies.com</id>
+          <url>http://nexus.bericotechnologies.com/content/repositories/snapshots/</url>
+      </snapshotRepository>
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.5.1</version>
+        <configuration>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
